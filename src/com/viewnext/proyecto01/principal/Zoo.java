@@ -32,12 +32,14 @@ public class Zoo {
 	 */
 	public static void empezarEspectaculo() {
 		
+	
 		Mamifero leon = new Mamifero("Simba");
 		Ave aguila = new Ave("Zazú");
 		Delfin delfin1 = new Delfin("Flipper");
 		Delfin delfin2 = new Delfin("Winter");
 		Delfin delfin3 = new Delfin("Delfy");
 		Random random = new Random();
+		
 		
 		Animal arr[]= {leon,aguila,delfin1,delfin2,delfin3};
 		Delfin arrDelfines[] = {delfin1,delfin2,delfin3};

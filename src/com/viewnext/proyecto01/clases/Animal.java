@@ -4,16 +4,20 @@
 package com.viewnext.proyecto01.clases;
 
 /**
- * @author Admin
+ * @author JoseMoreno
+ * Generamos una clase abstracta general
  *
  */
 public abstract class Animal {
 
 	String nombre;
+	/*
+	 *  Creamos una variable estatica para saber cuanta cantidad de animales isntanciamos
+	 */
 	public static int NUMERO_ANIMALES;
 	
 	/**
-	 * @param nombre
+	 * dentro del constructor sumamos na unidad al instanciar un objeto de clase Animal
 	 */
 	public Animal(String nombre) {
 		super();
@@ -21,12 +25,13 @@ public abstract class Animal {
 		NUMERO_ANIMALES++;
 	}
 
+	
 	public void  hacerSonido() {
 		
 	}
 
 	/**
-	 * @return the nombre
+	 * Para recuperar todos los nombres de los animales
 	 */
 	public void getNombre() {
 		System.out.println(nombre);
